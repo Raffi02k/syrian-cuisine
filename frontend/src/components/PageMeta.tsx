@@ -11,7 +11,7 @@ export const PageMeta: React.FC<PageMetaProps> = ({
   title,
   description,
   canonical,
-  ogImage = '/images/hero-bild.png',
+  ogImage = '/images/hero-bild.jpg',
 }) => {
   useEffect(() => {
     // Title
