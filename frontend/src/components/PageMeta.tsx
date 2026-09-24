@@ -11,7 +11,7 @@ export const PageMeta: React.FC<PageMetaProps> = ({
   title,
   description,
   canonical,
-  ogImage = '/images/og.png',
+  ogImage = '/images/hero-bild.png',
 }) => {
   useEffect(() => {
     // Title
@@ -36,21 +36,29 @@ export const PageMeta: React.FC<PageMetaProps> = ({
     }
     linkCanonical.setAttribute('href', canonicalUrl);
 
-    // Open Graph
-    const setMetaTag = (property: string, content: string) => {
-      let el = document.querySelector(`meta[property='${property}']`);
+    // Open Graph & Twitter meta tags
+    const setMetaTag = (attr: 'property' | 'name', key: string, content: string) => {
+      let el = document.querySelector(`meta[${attr}='${key}']`);
       if (!el) {
         el = document.createElement('meta');
-        el.setAttribute('property', property);
+        el.setAttribute(attr, key);
         document.head.appendChild(el);
       }
       el.setAttribute('content', content);
     };
 
-    setMetaTag('og:title', title);
-    setMetaTag('og:url', canonicalUrl);
-    setMetaTag('og:description', description);
-    setMetaTag('og:image', ogImage);
+    const absoluteOgImage = ogImage.startsWith('http')
+      ? ogImage
+      : `https://syrian-cuisine.vercel.app${ogImage.startsWith('/') ? ogImage : `/${ogImage}`}`;
+
+    setMetaTag('property', 'og:title', title);
+    setMetaTag('property', 'og:url', canonicalUrl);
+    setMetaTag('property', 'og:description', description);
+    setMetaTag('property', 'og:image', absoluteOgImage);
+    setMetaTag('property', 'og:image:secure_url', absoluteOgImage);
+    setMetaTag('name', 'twitter:title', title);
+    setMetaTag('name', 'twitter:description', description);
+    setMetaTag('name', 'twitter:image', absoluteOgImage);
   }, [title, description, canonical, ogImage]);
 
   return null;
