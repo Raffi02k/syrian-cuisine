@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#120c08" />
+    
+    <title>Syrian Cuisine – Autentisk Syrisk Restaurang & Kolgrill</title>
+    <meta name="description" content="Välkommen till Syrian Cuisine. Upplev äkta syrisk matkultur med saftiga kolgrillade spett, krispiga meze, doftande kryddor och traditionella desserter." />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="restaurant" />
+    <meta property="og:url" content="https://syrian-cuisine.vercel.app/" />
+    <meta property="og:title" content="Syrian Cuisine – Autentisk Syrisk Restaurang & Kolgrill" />
+    <meta property="og:description" content="Upplev äkta syriska smaker, traditionell meze och kolgrillade rätter i en varm och inbjudande atmosfär." />
+    <meta property="og:image" content="/images/og.png" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Syrian Cuisine – Autentisk Syrisk Restaurang" />
+    <meta name="twitter:description" content="Upplev äkta syriska smaker, traditionell meze och kolgrillade rätter i en varm och inbjudande atmosfär." />
+    
+    <!-- Fonts: Cormorant Garamond, Outfit & Cairo (for Arabic typography) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Syrian Cuisine",
+      "image": "https://syrian-cuisine.vercel.app/images/og.png",
+      "servesCuisine": "Syrian, Middle Eastern, Halal",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Storgatan 12",
+        "addressLocality": "Stockholm",
+        "postalCode": "111 22",
+        "addressCountry": "SE"
+      },
+      "telephone": "+46812345678",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "11:00",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday", "Sunday"],
+          "opens": "12:00",
+          "closes": "23:00"
+        }
+      ],
+      "menu": "https://syrian-cuisine.vercel.app/meny"
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

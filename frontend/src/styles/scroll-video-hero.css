@@ -1,0 +1,114 @@
+.scrub-hero {
+  position: relative;
+  height: 1100vh;
+  height: 1100svh;
+  background: #100c08;
+  color: #fff8eb;
+}
+
+.scrub-hero__stage {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.scrub-hero__scene, .scrub-hero__video, .scrub-hero__shade {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.scrub-hero__scene { opacity: 0; visibility: hidden; pointer-events: none; }
+.scrub-hero__scene:first-of-type { opacity: 1; visibility: visible; }
+.scrub-hero__video { display: block; object-fit: cover; object-position: center; pointer-events: none; }
+.scrub-hero__shade {
+  background:
+    linear-gradient(90deg, rgb(10 7 4 / 70%), transparent 32%, transparent 70%, rgb(10 7 4 / 65%)),
+    linear-gradient(180deg, rgb(10 7 4 / 65%), transparent 32%, transparent 72%, rgb(10 7 4 / 85%));
+}
+.scrub-hero__intro {
+  position: absolute;
+  z-index: 5;
+  top: clamp(100px, 15vh, 160px);
+  left: clamp(24px, 4vw, 72px);
+  right: 24px;
+  pointer-events: none;
+}
+.scrub-hero__eyebrow { display: block; font-size: 0.65rem; line-height: 1.6; letter-spacing: 0.17em; text-transform: uppercase; color: #e0c69a; }
+.scrub-hero__intro h1 { margin-top: 8px; font-family: var(--font-serif); font-size: clamp(1.15rem, 2vw, 1.9rem); font-weight: 400; color: #fff8eb; }
+.scrub-hero__intro h1 em { font-weight: 400; color: #ddc6a0; }
+.scrub-hero__left, .scrub-hero__right {
+  position: absolute;
+  top: 48%;
+  width: clamp(150px, 19vw, 260px);
+  text-shadow: 0 2px 18px rgb(0 0 0 / 55%);
+  will-change: transform, opacity;
+}
+.scrub-hero__left { left: clamp(24px, 4vw, 72px); }
+.scrub-hero__right { right: clamp(24px, 4vw, 72px); text-align: right; }
+.scrub-hero__ornament { display: block; color: #d9b879; margin: 20px 0 12px; font-size: 0.75rem; }
+.scrub-hero__left h2 { font-family: var(--font-serif); font-size: clamp(1.3rem, 2.25vw, 2.15rem); font-weight: 400; line-height: 1.15; color: #fff8eb; }
+.scrub-hero__left p { margin-top: 12px; font-size: 0.8rem; line-height: 1.6; color: #e4d8c7; }
+.scrub-hero__right .scrub-hero__arabic { color: #e7ca94; font-size: clamp(1.4rem, 2.5vw, 2.5rem); line-height: 1.6; }
+.scrub-hero__rule { display: block; width: 40px; height: 1px; background: #cfad71; margin: 18px 0 18px auto; }
+.scrub-hero__right ul { list-style: none; padding: 0; margin: 0; color: #e4d8c7; font-size: 0.75rem; line-height: 2; letter-spacing: 0.04em; }
+.scrub-hero__footer {
+  position: absolute;
+  z-index: 5;
+  bottom: max(56px, env(safe-area-inset-bottom));
+  left: clamp(24px, 4vw, 72px);
+  right: clamp(24px, 4vw, 72px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.scrub-hero__skip, .scrub-hero__menu { display: inline-flex; align-items: center; gap: 10px; color: #f1e0c1; font-size: 0.75rem; padding-block: 12px; }
+.scrub-hero__chapters { display: flex; gap: 16px; }
+.scrub-hero__chapters button { display: flex; align-items: center; gap: 10px; min-height: 44px; padding: 8px 0; background: transparent; border: 0; color: #c4b7a4; cursor: pointer; font: inherit; font-size: 0.65rem; }
+.scrub-hero__chapters button[aria-current], .scrub-hero__chapters button:hover { color: #ffe0a6; }
+.scrub-hero__track { display: block; width: clamp(24px, 4vw, 64px); height: 2px; background: rgb(255 240 214 / 25%); }
+.scrub-hero__progress { display: block; height: 100%; width: 100%; background: #e3bd7a; transform: scaleX(0); transform-origin: left; }
+.scrub-hero__hint { position: absolute; z-index: 5; bottom: 20px; left: 0; right: 0; display: flex; justify-content: center; align-items: center; gap: 8px; font-size: 0.62rem; letter-spacing: 0.1em; color: #cfc0a9; pointer-events: none; }
+.scrub-hero__fallback { position: absolute; bottom: 140px; left: 24px; right: 24px; text-align: center; font-size: 0.8rem; color: #fff8eb; }
+.scrub-hero a:focus-visible, .scrub-hero button:focus-visible { outline: 2px solid #edcb90; outline-offset: 5px; }
+
+@media (max-width: 700px) {
+  .scrub-hero { height: 900svh; }
+  .scrub-hero__intro { top: 100px; left: 20px; }
+  .scrub-hero__intro .scrub-hero__eyebrow { font-size: 0.55rem; letter-spacing: 0.12em; }
+  .scrub-hero__intro h1 { max-width: 270px; font-size: 1.3rem; }
+  .scrub-hero__intro h1 em { display: block; margin-top: 4px; }
+  .scrub-hero__shade { background: linear-gradient(180deg, rgb(10 7 4 / 75%), transparent 35%, transparent 52%, rgb(10 7 4 / 88%) 86%); }
+  .scrub-hero__left, .scrub-hero__right { top: auto; bottom: 170px; width: 43%; }
+  .scrub-hero__left { left: 20px; }
+  .scrub-hero__right { right: 20px; }
+  .scrub-hero__left .scrub-hero__eyebrow { font-size: 0.52rem; letter-spacing: 0.08em; }
+  .scrub-hero__ornament { margin: 10px 0; }
+  .scrub-hero__left h2 { font-size: 1.3rem; overflow-wrap: anywhere; }
+  .scrub-hero__left p { font-size: 0.68rem; }
+  .scrub-hero__right .scrub-hero__arabic { font-size: 1.5rem; }
+  .scrub-hero__right ul { font-size: 0.65rem; }
+  .scrub-hero__rule { margin-block: 10px; width: 26px; }
+  .scrub-hero__footer { left: 20px; right: 20px; bottom: 44px; flex-wrap: wrap; gap: 4px 16px; }
+  .scrub-hero__chapters { order: -1; width: 100%; justify-content: space-between; gap: 12px; }
+  .scrub-hero__track { width: 10vw; }
+  .scrub-hero__skip, .scrub-hero__menu { font-size: 0.68rem; }
+  .scrub-hero__hint { bottom: 16px; font-size: 0.55rem; letter-spacing: 0.04em; }
+}
+@media (max-height: 550px) and (min-width: 701px) {
+  .scrub-hero__intro { top: 85px; }
+  .scrub-hero__left, .scrub-hero__right { top: 43%; }
+  .scrub-hero__ornament { margin-block: 6px; }
+  .scrub-hero__right ul { line-height: 1.5; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .scrub-hero { height: auto; }
+  .scrub-hero__stage { position: relative; height: auto; }
+  .scrub-hero__scene { position: relative; height: 100svh; min-height: 620px; opacity: 1; visibility: visible; }
+  .scrub-hero__left, .scrub-hero__right { opacity: 1; transform: none; }
+  .scrub-hero__hint, .scrub-hero__chapters { display: none; }
+}
