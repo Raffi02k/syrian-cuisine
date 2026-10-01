@@ -81,8 +81,8 @@ export const menuItems: MenuItem[] = [
   },
   {
     id: 'falafel-platter',
-    name: 'Syrisk Falafel (5 st)',
-    arabicName: 'فلافل شامية',
+    name: 'Krispig Falafel (5 st)',
+    arabicName: 'فلافل كلاسيكية',
     description: 'Nystekta krispiga kikärtsbollar serverade med tahinisås, inlagda rovor och färska örter.',
     price: '79 kr',
     category: 'meze',
@@ -101,9 +101,9 @@ export const menuItems: MenuItem[] = [
   // Kolgrillat
   {
     id: 'mix-grill-royal',
-    name: 'Syrian Mix Grill Royal',
+    name: 'Royal Mix Grill (Irakiska & Syriska Spett)',
     arabicName: 'مشاوي مشكلة ملكية',
-    description: 'Kombination av Shish Taouk, Shish Kebab och lammkotlett. Serveras med grillad tomat, lök, biwaz-bröd och saffransris eller pommes.',
+    description: 'Kombination av Shish Taouk, Shish Kebab och lammkotlett marinerade i orientaliska kryddor. Serveras med grillad tomat, lök, biwaz-bröd och saffransris eller pommes.',
     price: '259 kr',
     category: 'grill',
     tags: ['Kockens Rekommendation', 'Grillat'],
@@ -113,7 +113,7 @@ export const menuItems: MenuItem[] = [
     id: 'shish-taouk',
     name: 'Shish Taouk (Kycklingspett)',
     arabicName: 'شيش طاووق',
-    description: 'Kycklingbröst marinerat i vitlök, citron, libanesisk yoghurt och orientaliska kryddor. Serveras med toum (vitlökskräm).',
+    description: 'Kycklingbröst marinerat i vitlök, citron, fyllig yoghurt och orientaliska kryddor. Serveras med toum (vitlökskräm).',
     price: '195 kr',
     category: 'grill',
     tags: ['Populär', 'Kolgrill'],
@@ -127,6 +127,7 @@ export const menuItems: MenuItem[] = [
     price: '210 kr',
     category: 'grill',
     tags: ['Traditionell', 'Kolgrill'],
+    isPopular: true,
   },
   {
     id: 'lammkotletter',
@@ -153,7 +154,7 @@ export const menuItems: MenuItem[] = [
     id: 'damascene-fatteh',
     name: 'Fatteh Bil-Laban',
     arabicName: 'فتة حمص باللبن',
-    description: 'Traditionell syrisk comfort food med krispigt bröd, varma kikärtor, tahini-yoghurtkräm, brynt smör och mandelspån.',
+    description: 'Klassisk orientalisk comfort food med krispigt bröd, varma kikärtor, tahini-yoghurtkräm, brynt smör och mandelspån.',
     price: '165 kr',
     category: 'varmratter',
     tags: ['Vegetarisk', 'Klassiker'],

@@ -15,14 +15,14 @@ export const MenuPage: React.FC = () => {
     <>
       <PageMeta
         title={`Cateringpaket & Menyer – ${siteContent.companyName}`}
-        description="Se våra syriska cateringbufféer och priser per person i Trollhättan. Klassisk shawarmabuffé, mezetallrikar och kungliga varmrätter för alla sällskap."
+        description="Se våra irakiska och syriska cateringbufféer och priser per person i Trollhättan. Klassisk shawarmabuffé, mezetallrikar och kungliga varmrätter för alla sällskap."
         canonical="https://syrian-cuisine.vercel.app/meny"
       />
 
       <PageHero
         eyebrow="Catering i Trollhättan & Trestad"
         title="Våra Cateringpaket & Bufféer"
-        description="Prisvärda, generösa och doftande festbufféer tillagade från grunden med äkta levantinska smaker för 15 till 300+ personer."
+        description="Prisvärda, generösa och doftande festbufféer tillagade från grunden med äkta irakiska och syriska smaker för 15 till 300+ personer."
       />
 
       <section className="section">

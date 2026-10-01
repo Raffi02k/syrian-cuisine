@@ -27,10 +27,10 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  companyName: 'Syrian Cuisine Catering',
-  tagline: 'Autentisk Syrisk Festmat & Catering i Trollhättan',
+  companyName: 'Iraqi & Syrian Cuisine Catering',
+  tagline: 'Autentisk Irakisk & Syrisk Festmat & Catering i Trollhättan',
   description:
-    'Exklusiv syrisk catering och festbufféer för bröllop, födelsedagar, dop och företagsevent i Trollhättan och Trestad. Handrullad meze, saftig shawarma och paradrätter lagade från grunden.',
+    'Exklusiv irakisk och syrisk catering och festbufféer för bröllop, födelsedagar, dop och företagsevent i Trollhättan och Trestad. Handrullad meze, saftig shawarma och paradrätter lagade från grunden.',
   city: 'Trollhättan',
   serviceArea: 'Trollhättan, Vänersborg, Uddevalla & hela Trestad',
   address: 'Trollhättan',
@@ -47,8 +47,8 @@ export const siteContent: SiteContent = {
   navigation: [
     { name: 'Startsida', path: '/' },
     { name: 'Cateringpaket', path: '/meny' },
-    { name: 'Om Kocken & Oss', path: '/om-oss' },
     { name: 'Galleri', path: '/galleri' },
+    { name: 'Om Kocken', path: '/om-oss' },
   ],
   socialLinks: {
     instagram: 'https://instagram.com',

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { CheckCircle2, Send, AlertCircle, Loader2, Sparkles } from 'lucide-react';
 import { cateringPackages } from '../content/cateringPackages';
+import { siteContent } from '../content/siteContent';
 
 export const ReservationForm: React.FC = () => {
   const location = useLocation();
@@ -364,7 +365,7 @@ export const ReservationForm: React.FC = () => {
                 onChange={handleChange}
                 style={{ marginTop: '3px' }}
               />
-              <span>Jag godkänner att mina kontaktuppgifter sparas för att Syrian Cuisine Catering ska kunna lämna offert.</span>
+              <span>Jag godkänner att mina kontaktuppgifter sparas för att {siteContent.companyName} ska kunna lämna offert.</span>
             </label>
           </div>
         </div>

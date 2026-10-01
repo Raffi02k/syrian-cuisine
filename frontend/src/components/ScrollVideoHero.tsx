@@ -15,7 +15,7 @@ const stories = [
   },
   {
     file: 'Dolma-scroll1', title: 'Kousa b’Laban', arabic: 'كوسا بلبن',
-    category: 'Från det syriska festbordet', note: 'Tradition i varje lager.',
+    category: 'Från det traditionella festbordet', note: 'Tradition i varje lager.',
     ingredients: ['Silkeslen yoghurt', 'Kryddad färs', 'Gyllene pinjenötter'],
   },
   {
@@ -143,11 +143,11 @@ export const ScrollVideoHero = () => {
   };
 
   return (
-    <section ref={rootRef} className="scrub-hero" aria-label="En smakresa genom det syriska köket">
+    <section ref={rootRef} className="scrub-hero" aria-label="En smakresa genom det irakiska och syriska köket">
       <div className="scrub-hero__stage">
         <div className="scrub-hero__intro">
-          <span className="scrub-hero__eyebrow">Syrian Cuisine · Trollhättan & Trestad</span>
-          <h1>Syriskt mathantverk. <em>Bild för bild.</em></h1>
+          <span className="scrub-hero__eyebrow">Iraqi & Syrian Cuisine · Trollhättan & Trestad</span>
+          <h1>Irakiskt & syriskt mathantverk. <em>Bild för bild.</em></h1>
         </div>
         {stories.map((story, index) => (
           <article key={story.file} id={`hero-scene-${index}`} className="scrub-hero__scene" aria-label={story.title}>

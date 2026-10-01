@@ -9,8 +9,8 @@ export const AboutPage: React.FC = () => {
   return (
     <>
       <PageMeta
-        title={`Om Kocken Nana & Syrian Cuisine – ${siteContent.companyName}`}
-        description="Läs om vår passion för det syriska matarvet, våra traditionella recept och hur vi levererar äkta festcatering i Trollhättan och Trestad."
+        title={`Om Kocken Nana – ${siteContent.companyName}`}
+        description="Läs om vår passion för det irakiska och syriska matarvet, våra traditionella recept och hur vi levererar äkta festcatering i Trollhättan och Trestad."
         canonical="https://syrian-cuisine.vercel.app/om-oss"
       />
 
@@ -35,7 +35,7 @@ export const AboutPage: React.FC = () => {
                 </span>
                 <span className="about-hero__badge">
                   <Award size={15} style={{ color: 'var(--accent-gold)' }} />
-                  <span>Äkta Syriska Recept</span>
+                  <span>Äkta Irakiska & Syriska Recept</span>
                 </span>
                 <span className="about-hero__badge">
                   <Heart size={15} style={{ color: 'var(--accent-gold)' }} />
@@ -91,10 +91,10 @@ export const AboutPage: React.FC = () => {
                 Recept som förts vidare genom sekler
               </h2>
               <p style={{ marginBottom: '16px', lineHeight: '1.7' }}>
-                Syrian Cuisine grundades ur en stark längtan efter att erbjuda äkta, oförfalskad syrisk matkultur i Sverige. Våra rätter är skapade utifrån gamla familjerecept från Damaskus och Aleppo, där varje ingrediens väljs med omsorg.
+                Vårt kök grundades ur en stark längtan efter att erbjuda äkta, oförfalskad irakisk och syrisk matkultur i Sverige. Våra rätter är skapade utifrån gamla familjerecept från Bagdad, Damaskus och Aleppo, där varje ingrediens väljs med omsorg.
               </p>
               <p style={{ marginBottom: '16px', lineHeight: '1.7' }}>
-                Vi importerar specialkryddor som torkad sumak, za'atar, granatäppelmelass och apelsinblomsvatten direkt för att garantera den rätta balansen mellan syra, rökighet och sötma.
+                Vi importerar specialkryddor som torkad sumak, irakisk noomi basra (torkad lime), za'atar, granatäppelmelass och apelsinblomsvatten direkt för att garantera den rätta balansen mellan syra, rökighet och sötma.
               </p>
             </div>
 

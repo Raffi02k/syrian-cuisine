@@ -9,13 +9,13 @@ export const ChefSpotlight: React.FC<{ compact?: boolean }> = ({ compact = false
     return (
       <section className="home-chef home-wrap" id="kocken" aria-labelledby="home-chef-title">
         <figure className="home-chef__portrait">
-          <img src={chefProfile.portrait} alt="Nana, kocken bakom Syrian Cuisine" loading="lazy" decoding="async" width="523" height="1024" />
+          <img src={chefProfile.portrait} alt={`Nana, kocken bakom ${siteContent.companyName}`} loading="lazy" decoding="async" width="523" height="1024" />
           <figcaption><span>Nana · Kock & grundare</span><span className="font-arabic" lang="ar" dir="rtl">الشيف نانا</span></figcaption>
         </figure>
         <div className="home-chef__story">
           <span className="home-eyebrow">Människan bakom smakerna</span>
           <h2 id="home-chef-title">Möt Nana.<br /><em>Mat från hjärtat.</em></h2>
-          <p>Med rötterna i det syriska köket lagar Nana mat som för människor samman. Handrullade vinblad, doftande kryddor och generösa fat – allt med samma omsorg som hemma.</p>
+          <p>Med rötterna i det irakiska och syriska matarvet lagar Nana mat som för människor samman. Handrullade vinblad, doftande kryddor och generösa fat – allt med samma omsorg som hemma.</p>
           <blockquote>{chefProfile.quoteSv}</blockquote>
           <NavLink to="/om-oss" className="home-link">Lär känna Nana <ArrowUpRight size={17} /></NavLink>
         </div>

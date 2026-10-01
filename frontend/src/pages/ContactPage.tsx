@@ -10,7 +10,7 @@ export const ContactPage: React.FC = () => {
     <>
       <PageMeta
         title={`Beställ Catering & Offert – ${siteContent.companyName}`}
-        description="Beställ syrisk catering och festbufféer i Trollhättan, Vänersborg och Uddevalla. Begär kostnadsfri offert för 15 till 300+ personer."
+        description="Beställ irakisk och syrisk catering och festbufféer i Trollhättan, Vänersborg och Uddevalla. Begär kostnadsfri offert för 15 till 300+ personer."
         canonical="https://syrian-cuisine.vercel.app/kontakt"
       />
 

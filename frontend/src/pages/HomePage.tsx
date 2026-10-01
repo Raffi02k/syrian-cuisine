@@ -11,7 +11,7 @@ export const HomePage = () => (
   <div className="home-page">
     <PageMeta
       title={`${siteContent.companyName} – ${siteContent.tagline}`}
-      description="Syrisk catering med Nana i Trollhättan och Trestad. Mat lagad från grunden, generösa bufféer och smaker att samlas kring."
+      description="Irakisk och syrisk catering med Nana i Trollhättan och Trestad. Mat lagad från grunden, generösa bufféer och smaker att samlas kring."
     />
     <CinematicScrollytelling />
     <div className="home-after-hero">
@@ -23,7 +23,7 @@ export const HomePage = () => (
           <h2 id="home-catering-title">Du samlar gästerna.<br /><em>Vi lagar maten.</em></h2>
         </div>
         <div className="home-catering__details">
-          <p>En middag med familjen, ett bröllop eller en kväll med kollegorna. Nana lagar syriska bufféer från grunden, anpassade efter ert sällskap.</p>
+          <p>En middag med familjen, ett bröllop eller en kväll med kollegorna. Nana lagar irakiska och syriska bufféer från grunden, anpassade efter ert sällskap.</p>
           <p className="home-catering__location">Catering i Trollhättan, Vänersborg & Trestad.</p>
           <div className="home-links">
             <NavLink to="/meny#kalkylator" className="home-link">Se menyer & beräkna pris <ArrowUpRight size={17} /></NavLink>

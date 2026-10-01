@@ -37,12 +37,12 @@ export const DishAnatomySection: React.FC = () => {
             <span>Kulinarisk Ingrediensanalys & Anatomi</span>
           </div>
           <h2 className="section-title">
-            <span className="font-arabic arabic-title-highlight">تشريح الأكلات السورية</span>
+            <span className="font-arabic arabic-title-highlight">تشريح الأكلات العراقية والشامية</span>
             <span className="block-title">Upptäck Matens Hemligheter Lager för Lager</span>
           </h2>
           <p className="section-subtitle">
             Varje maträtt är ett konstverk av tradition och balans. Klicka och utforska de autentiska råvarorna,
-            hur de samverkar och vad som ger det syriska köket sin legendariska själ.
+            hur de samverkar och vad som ger det irakiska och syriska köket sin legendariska själ.
           </p>
         </div>
 

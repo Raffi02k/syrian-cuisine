@@ -25,21 +25,21 @@ export const cateringPackages: CateringPackage[] = [
   {
     id: 'shawarma-buffet',
     name: 'Klassisk Shawarma-Festbuffé',
-    nameAr: 'بوفيه الشاورما السورية الملكي',
+    nameAr: 'بوفيه الشاورما الملكي',
     subtitle: 'Vår mest populära buffé för fester och födelsedagar',
     pricePerPerson: 175,
     minGuests: 15,
     popular: true,
     image: '/images/dish-shawarma.webp',
     description:
-      'En fulländad shawarmabuffé där gästerna njuter av nygrillad saftig kycklingshawarma med alla klassiska tillbehör, hembakat syriskt tunnbröd och krämiga såser.',
+      'En fulländad shawarmabuffé där gästerna njuter av nygrillad saftig kycklingshawarma med alla klassiska tillbehör, hembakat tunnbröd och krämiga såser.',
     includedItems: [
       'Marinerad kycklingshawarma (24h ört- och kryddmarinad)',
-      'Nybakat tunt syriskt tunnbröd',
+      'Nybakat tunt bröd (khubz / saj)',
       'Hemgjord äkta Toum (krämig vitlökskräm)',
       'Krispiga syrliga inlagda gurkor (pickles)',
       'Kryddade ugnsrostade klyftpotatisar eller vermicelliris',
-      'Färsk levantinsk coleslaw & picklade rödbetor',
+      'Färsk krispig coleslaw & picklade rödbetor',
       'Röd orientalisk chilisås (mild/stark efter önskemål)',
     ],
     dishHighlight: 'Baserad på vår berömda shawarma-anatomi – garanterat saftigt och smakrikt.',
@@ -47,8 +47,8 @@ export const cateringPackages: CateringPackage[] = [
   {
     id: 'basha-buffet',
     name: 'Kungliga Festbuffén (Basha W Asakro)',
-    nameAr: 'بوفيه الملوك الشامي (باشا وعساكره)',
-    subtitle: 'Exklusiva damaskenska paradrätter för fest & bröllop',
+    nameAr: 'بوفيه الملوك الأصيل (باشا وعساكره)',
+    subtitle: 'Exklusiva traditionella paradrätter för fest & bröllop',
     pricePerPerson: 225,
     minGuests: 20,
     popular: true,
@@ -93,9 +93,9 @@ export const cateringAddons: CateringAddon[] = [
   {
     id: 'halawet-dessert',
     name: 'Dessertfat: Halawet El Jibn',
-    nameAr: 'صحن حلاوة الجبن الحمصية بالقشطة',
+    nameAr: 'صحن حلاوة الجبن بالقشطة',
     pricePerPerson: 35,
-    description: 'Traditionella ost- och ashtarullar toppade med Aleppo-pistage och apelsinblomssirap.',
+    description: 'Traditionella ost- och ashtarullar toppade med pistage och apelsinblomssirap.',
     popular: true,
   },
   {

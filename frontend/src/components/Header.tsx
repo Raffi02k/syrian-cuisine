@@ -75,7 +75,7 @@ export const Header: React.FC = () => {
             href="/"
             onClick={handleLogoClick}
             className="logo-container"
-            aria-label="Syrian Cuisine - Till startsidan"
+            aria-label={`${siteContent.companyName} - Till startsidan`}
           >
             <div className="logo-mark">
               <Utensils size={20} />

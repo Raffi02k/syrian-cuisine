@@ -14,7 +14,7 @@ export const GalleryPage = () => {
   const filtered = galleryItems.filter((item) => activeCategory === 'Alla' || item.category === activeCategory);
   return (
     <div className="dish-theme dish-gallery">
-      <PageMeta title={`Galleri & våra rätter – ${siteContent.companyName}`} description="Upptäck Nanas syriska kök. Se bilder och lär känna varje rätt, dess råvaror, smaker och servering." canonical="https://syrian-cuisine.vercel.app/galleri" ogImage="/images/dish-shawarma.webp" />
+      <PageMeta title={`Galleri & våra rätter – ${siteContent.companyName}`} description="Upptäck Nanas irakiska och syriska kök. Se bilder och lär känna varje rätt, dess råvaror, smaker och servering." canonical="https://syrian-cuisine.vercel.app/galleri" ogImage="/images/dish-shawarma.webp" />
       <div className="dish-wrap">
         <header className="dish-gallery__intro"><span className="dish-kicker">En närmare titt på Nanas kök</span><h1>Varje rätt har<br /><em>sin egen berättelse.</em></h1><p>Från råvaran till det dukade bordet. Upptäck bilderna och lär känna smakerna bakom varje rätt.</p><a href="#ratter" className="dish-link">Utforska alla rätter <ArrowUpRight size={17} /></a></header>
         <section aria-label="Bilder från köket">

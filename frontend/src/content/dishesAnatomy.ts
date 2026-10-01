@@ -39,19 +39,19 @@ export const dishesAnatomyList: DishAnatomy[] = [
   {
     id: 'shawarma',
     slug: 'syrian-shawarma',
-    titleAr: 'تشريح الشاورما السوري',
-    titleSv: 'Syrisk Kycklingshawarma',
-    subtitleAr: 'تفكيك أكلة شعبية بطعم سوري أصيل',
-    subtitleSv: 'Anatomi av Syriens mest ikoniska street food',
+    titleAr: 'تشريح الشاورما الأصيلة',
+    titleSv: 'Klassisk Kycklingshawarma',
+    subtitleAr: 'تفكيك أكلة شعبية بطعم أصيل',
+    subtitleSv: 'Anatomi av en älskad orientalisk street food-klassiker',
     category: 'Varmrätter & Street Food',
     price: '139 kr',
     image: '/images/dish-shawarma.webp',
     descriptionSv:
-      'Den äkta syriska shawarma-upplevelsen handlar om balansen mellan det tunna, grillpressade brödet, saftiga marinerade kycklingskivor, syrliga pickles och den oersättliga krämiga vitlökskrämen (toum).',
+      'Den genuina shawarma-upplevelsen handlar om balansen mellan det tunna, grillpressade brödet, saftiga marinerade kycklingskivor, syrliga pickles och den oersättliga krämiga vitlökskrämen (toum).',
     descriptionAr:
-      'الشاورما السورية الأصيلة هي توازن مثالي بين الخبز السوري الرقيق المحمص، وشرائح الدجاج المتبلة المشوية بنكهة الشواء، والمخلل المقرمش وكريم الثوم الفاخر.',
+      'الشاورما الأصيلة هي توازن مثالي بين الخبز الرقيق المحمص، وشرائح الدجاج المتبلة المشوية بنكهة الشواء، والمخلل المقرمش وكريم الثوم الفاخر.',
     highlights: [
-      'Marinerad i 24 timmar med levantinska kryddor',
+      'Marinerad i 24 timmar med orientaliska kryddor',
       'Pressgrillas för frasig yta och varm saftig kärna',
       'Hemgjord sammetslen Toum (vitlökskräm)',
     ],
@@ -65,10 +65,10 @@ export const dishesAnatomyList: DishAnatomy[] = [
     ingredients: [
       {
         id: 'bread',
-        nameAr: 'الخبز السوري الأبيض',
-        nameSv: 'Vitt Syriskt Tunnbröd',
-        nameEn: 'White Syrian Bread',
-        descAr: 'الأساس الذي يلف المكونات ويحافظ على تماسك الشاورما ويمنحها طابعها السوري الفريد.',
+        nameAr: 'الخبز الأبيض الرقيق',
+        nameSv: 'Nybakat Tunt Bröd (Saj/Khubz)',
+        nameEn: 'Traditional Flatbread',
+        descAr: 'الأساس الذي يلف المكونات ويحافظ على تماسك الشاورما ويمنحها قرمشتها الفريدة.',
         descSv: 'Det tunna, elastiska signaturbrödet som omsluter fyllningen, suger åt sig smakerna och blir krispigt vid grillning.',
         role: 'Bas & Krisp',
       },
@@ -92,7 +92,7 @@ export const dishesAnatomyList: DishAnatomy[] = [
       },
       {
         id: 'pickles',
-        nameAr: 'المخلل السوري المقرمش',
+        nameAr: 'المخلل المقرمش',
         nameSv: 'Syrliga Inlagda Gurkor',
         nameEn: 'Crispy Pickles',
         descAr: 'توازن الحموضة والقرمشة الذي يعطي الشاورما انتعاشها ولمعتها المميزة.',
@@ -107,20 +107,20 @@ export const dishesAnatomyList: DishAnatomy[] = [
   {
     id: 'waraq-enab',
     slug: 'syrian-waraq-enab',
-    titleAr: 'تشريح ورق العنب السوري (يلنجي)',
+    titleAr: 'تشريح ورق العنب (يلنجي / دولمة)',
     titleSv: 'Handrullade Vinbladsdolmar (Yalanji)',
-    subtitleAr: 'تفكيك أسرار أشهر مقبلات سورية حامضة',
-    subtitleSv: 'Anatomi av Levantens mest älskade syrliga meze',
+    subtitleAr: 'تفكيك أسرار أشهر مقبلات حامضة',
+    subtitleSv: 'Anatomi av det irakiska och syriska kökets mest älskade meze',
     category: 'Meze & Förrätter',
     price: '119 kr',
     image: '/images/dish-waraq-enab.webp',
     descriptionSv:
-      'Yalanji är det syriska kökets mästerverk bland vegetariska mezerätter. Mjälla vinblad fyllda med kortkornigt ris, örter och saftiga tomater, sakta sjudna i en generös lag av granatäppelsirap, citron och olivolja.',
+      'Yalanji och dolma är det orientaliska kökets mästerverk bland vegetariska mezerätter. Mjälla vinblad fyllda med kortkornigt ris, örter och saftiga tomater, sakta sjudna i en generös lag av granatäppelsirap, citron och olivolja.',
     descriptionAr:
-      'اليلنجي السوري الفاخر: حبات ورق العنب الغضة المحشوة بأطيب خلطة أرز وخضار طازجة والمطبوخة بهدوء في زيت الزيتون ودبس الرمان وعصير الليمون المنعش.',
+      'اليلنجي والدولمة الفاخرة: حبات ورق العنب الغضة المحشوة بأطيب خلطة أرز وخضار طازجة والمطبوخة بهدوء في زيت الزيتون ودبس الرمان وعصير الليمون المنعش.',
     highlights: [
       '100% handrullade med kärlek och tålamod',
-      'Generöst med genuin syrisk granatäppelmelass',
+      'Generöst med genuin granatäppelmelass och citron',
       'Serveras kylda eller rumstempererade',
     ],
     tasteProfile: {
@@ -175,17 +175,17 @@ export const dishesAnatomyList: DishAnatomy[] = [
   {
     id: 'basha-w-asakro',
     slug: 'basha-w-asakro',
-    titleAr: 'تشريح أكلة باشا وعساكره السورية',
+    titleAr: 'تشريح أكلة باشا وعساكره',
     titleSv: 'Basha W Asakro (Pashans Festmåltid)',
-    subtitleAr: 'تفكيك أكلة الملوك الشامية الأصلية',
+    subtitleAr: 'تفكيك أكلة الملوك الأصلية',
     subtitleSv: 'Fylld zucchini & dumplings i varm kryddad yoghurtsås',
     category: 'Klassiska Varmrätter',
     price: '189 kr',
     image: '/images/dish-basha-w-asakro.webp',
     descriptionSv:
-      'En kunglig damaskensk paradrätt. Späda zucchinis urgröpta och fyllda med finaste kryddad nötfärs, sjudna tillsammans med små shish barak-knyten i en varm, sammetslen yoghurtsås toppad med brynt smör och krispiga pinjenötter.',
+      'En kunglig traditionell paradrätt. Späda zucchinis urgröpta och fyllda med finaste kryddad nötfärs, sjudna tillsammans med små shish barak-knyten i en varm, sammetslen yoghurtsås toppad med brynt smör och krispiga pinjenötter.',
     descriptionAr:
-      'من أرقى وأعرق أكلات المطبخ الدمشقي: كوسا محشية باللحمة الصنوبرية مع الشيش برك في لبن مطبوخ كريمي غني بالثوم والنعناع ولمسة السمنة العربية الفواحة.',
+      'من أرقى وأعرق الأكلات الشرقية: كوسا محشية باللحمة الصنوبرية مع الشيش برك في لبن مطبوخ كريمي غني بالثوم والنعناع ولمسة السمنة العربية الفواحة.',
     highlights: [
       'Kokt yoghurt med äkta mynta- och vitlöksbryning',
       'Späda handskalade och handurgröpta zucchinis',
@@ -243,21 +243,21 @@ export const dishesAnatomyList: DishAnatomy[] = [
   {
     id: 'halawet-el-jibn',
     slug: 'halawet-el-jibn',
-    titleAr: 'تشريح حلاوة الجبن الحمصية',
-    titleSv: 'Halawet El Jibn (Syrisk Ost- & Ashta-rulle)',
-    subtitleAr: 'تفكيك حلوى حمصية محشية قشطة بالطريقة الأصلية',
-    subtitleSv: 'Anatomi av Syriens mest eleganta sötsak',
+    titleAr: 'تشريح حلاوة الجبن بالقشطة',
+    titleSv: 'Halawet El Jibn (Ost- & Ashta-rulle)',
+    subtitleAr: 'تفكيك حلوى شرقية محشية قشطة بالطريقة الأصلية',
+    subtitleSv: 'Anatomi av orientens mest eleganta sötsak',
     category: 'Desserter & Bakverk',
     price: '95 kr',
     image: '/images/dish-halawet-el-jibn.webp',
     descriptionSv:
-      'En himmelsk efterrätt från den syriska staden Homs. Mjuk, elastisk deg av färskost och mannagryn rullas runt fyllig hemmagjord ashta (orientalisk gräddkräm), dränks i aromatisk sockerlag och kröns med pistaschnötter.',
+      'En himmelsk orientalisk efterrätt. Mjuk, elastisk deg av färskost och mannagryn rullas runt fyllig hemmagjord ashta (orientalisk gräddkräm), dränks i aromatisk sockerlag och kröns med pistaschnötter.',
     descriptionAr:
-      'حلاوة الجبن الحمصية الفاخرة: رقائق عجينة الجبن والسميد الطرية المحشوة بالقشطة البلدية الطازجة والموشحة بقطر ماء الزهر والفستق الحلبي الأخضر.',
+      'حلاوة الجبن الفاخرة: رقائق عجينة الجبن والسميد الطرية المحشوة بالقشطة البلدية الطازجة والموشحة بقطر ماء الزهر والفستق الأخضر.',
     highlights: [
-      'Äkta recept från Homs med traditionell ostteknik',
+      'Traditionell ostteknik för en perfekt elastisk konsistens',
       'Färsk handvispad Ashta med doft av mastik och apelsinblomma',
-      'Generöst toppad med handplockade Aleppo-pistascher',
+      'Generöst toppad med handplockade pistascher',
     ],
     tasteProfile: {
       savory: 20,
@@ -273,7 +273,7 @@ export const dishesAnatomyList: DishAnatomy[] = [
         nameSv: 'Mjuk Vit Ost- & Mannagrynsdeg',
         nameEn: 'White Cheese Dough',
         descAr: 'الطبقة الخارجية الناعمة المصنوعة من الجبن والسميد والتي تُلف على شكل رول متناسق.',
-        descSv: 'En unik elastisk deg skapad av smält syrisk ost och fin mannagryn med en touch av sockerlag och rosenvatten.',
+        descSv: 'En unik elastisk deg skapad av smält mild ost och fin mannagryn med en touch av sockerlag och rosenvatten.',
         role: 'Yttre Hölje',
       },
       {
@@ -281,17 +281,17 @@ export const dishesAnatomyList: DishAnatomy[] = [
         nameAr: 'القشطة البلدية المحشية',
         nameSv: 'Fyllig Hemlagad Ashta (Kräm)',
         nameEn: 'Cream Filling (Ashta)',
-        descAr: 'الحشوة الكريمية الموجودة داخل الرول كما في الطريقة الحمصية الأصيلة.',
+        descAr: 'الحشوة الكريمية الموجودة داخل الرول كما في الطريقة الأصلية الفاخرة.',
         descSv: 'Traditionell tjock orientalisk gräddkräm med len textur och subtil sötma som smälter i munnen.',
         role: 'Hjärtat i Desserten',
       },
       {
         id: 'pistachio',
-        nameAr: 'الفستق الحلبي الأخضر',
-        nameSv: 'Nymalda Aleppo-pistascher',
-        nameEn: 'Aleppo Pistachios',
-        descAr: 'رشة فستق حلبي مطحون ناعم للتزيين وللنكهة النهائية الفاخرة.',
-        descSv: 'Färska knapriga pistaschnötter från norra Levanten som tillför nötig arom och en vacker smaragdgrön kontrast.',
+        nameAr: 'الفستق الأخضر',
+        nameSv: 'Nymalda Pistaschnötter',
+        nameEn: 'Pistachios',
+        descAr: 'رشة فستق مطحون ناعم للتزيين وللنكهة النهائية الفاخرة.',
+        descSv: 'Färska knapriga pistaschnötter som tillför nötig arom och en vacker smaragdgrön kontrast.',
         role: 'Garnering & Nötighet',
       },
       {
@@ -335,21 +335,21 @@ export const chefProfile: ChefProfile = {
   roleSv: 'Grundare & Kulinarisk Mästare',
   roleAr: 'المؤسسة والماستر شيف وراء النكهات الأصيلة',
   portrait: '/images/chef-portrait.webp',
-  experience: 'Över 20 års hantverk och passion för hemlagad syrisk matkonst',
+  experience: 'Över 20 års hantverk och passion för hemlagad irakisk och syrisk matkonst',
   storySv:
-    'Med hjärtat rotat i den levantinska mattraditionen skapar hon varje måltid från grunden med kärlek, precision och de allra finaste råvarorna. För henne är mat mer än bara näring – det är en bro mellan generationer, en kärleksförklaring till kulturen och en varm famn för varje gäst som sätter sig till bords.',
+    'Med hjärtat rotat i det irakiska och syriska matarvet skapar hon varje måltid från grunden med kärlek, precision och de allra finaste råvarorna. För henne är mat mer än bara näring – det är en bro mellan generationer, en kärleksförklaring till kulturen och en varm famn för varje gäst som sätter sig till bords.',
   storyAr:
-    'بشغف متأصل في التراث المطبخي الشامي العريق، تقدم الشيف كل طبق بروح المحبة والدقة المتناهية وأفضل المكونات الطبيعية. الطعام بالنسبة لها ليس مجرد وجبة، بل هو جسر بين الأجيال ورسالة كرم وأصالة تجمع العائلة والأصدقاء.',
+    'بشغف متأصل في التراث المطبخي العراقي والشامي العريق، تقدم الشيف كل طبق بروح المحبة والدقة المتناهية وأفضل المكونات الطبيعية. الطعام بالنسبة لها ليس مجرد وجبة، بل هو جسر بين الأجيال ورسالة كرم وأصالة تجمع العائلة والأصدقاء.',
   quoteSv:
-    '”När jag lagar mat vill jag att varje tugga ska väcka minnen av doftande gator i Damaskus och den oändliga värmen vid familjens middagsbord.”',
+    '”När jag lagar mat vill jag att varje tugga ska väcka minnen av doftande gator i Bagdad och Damaskus och den oändliga värmen vid familjens middagsbord.”',
   quoteAr:
-    '«عندما أطبخ، أسعى لأن تنقل كل لقمة ضيوفي إلى سحر حارات دمشق وعراقة بيوتها ودفء موائدها العائلية.»',
+    '«عندما أطبخ، أسعى لأن تنقل كل لقمة ضيوفي إلى سحر حارات بغداد ودمشق وعراقة بيوتها ودفء موائدها العائلية.»',
   pillars: [
     {
       titleSv: 'Äkta Råvaror',
       titleAr: 'مكونات أصيلة وطازجة',
-      descSv: 'Handplockade levantinska kryddor, ren kallpressad olivolja och alltid färska örter.',
-      descAr: 'بهارات شامية منتقاة بعناية، زيت زيتون بكر ممتاز وأعشاب طازجة يومياً.',
+      descSv: 'Handplockade orientaliska kryddor från Mesopotamien och Levanten, ren kallpressad olivolja och alltid färska örter.',
+      descAr: 'بهارات أصيلة منتقاة بعناية، زيت زيتون بكر ممتاز وأعشاب طازجة يومياً.',
     },
     {
       titleSv: 'Handrullat & Hemlagat',

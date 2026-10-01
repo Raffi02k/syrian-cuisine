@@ -25,7 +25,7 @@ export const DishPage = () => {
             <Link to="/kontakt#offert" className="dish-link">Prata catering med Nana <ArrowUpRight size={17} /></Link>
           </div>
           {dish.image ? (
-            <figure className="dish-intro__image"><img key={dish.image} src={dish.image} alt={dish.name} decoding="async" /><figcaption>Råvaror, omsorg och syriskt mathantverk.</figcaption></figure>
+            <figure className="dish-intro__image"><img key={dish.image} src={dish.image} alt={dish.name} decoding="async" /><figcaption>Råvaror, omsorg och genuint mathantverk.</figcaption></figure>
           ) : (
             <div className="dish-intro__wordmark" aria-hidden="true"><span>✦</span><span className="font-arabic" lang="ar" dir="rtl">{dish.arabicName}</span><small>Från Nanas kök</small></div>
           )}
